@@ -54,7 +54,8 @@ key_info=(
   'Left'      "$terminfo[kcub1]"
   'Down'      "$terminfo[kcud1]"
   'Right'     "$terminfo[kcuf1]"
-  'BackTab'   "$terminfo[kcbt]"
+  #'BackTab'   "$terminfo[kcbt]"
+  'BackTab'   "^[[Z"
 )
 
 # Set empty $key_info values to an invalid UTF-8 sequence to induce silent
